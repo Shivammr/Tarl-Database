@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql5-1733d9269dd-6d1d4f855e896255": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "Employees",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "tarl.qait.com",
+				"port": "3306",
+				"database": "employees",
+				"url": "jdbc:mysql://tarl.qait.com:3306/employees",
+				"home": "MySQL Binaries",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
